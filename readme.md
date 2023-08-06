@@ -18,3 +18,12 @@ npx tsc --init
 
 ### 2. To compil the ts file and keep it running 
 npx tsc --watch
+
+
+#### Doc
+We will use an anonimous arrow function auto-executed in order to keep our code in the scope and avoid the typescript error "Cannot redeclare block-scoped variable."
+```
+(()=> {
+  //Code
+})();
+```
