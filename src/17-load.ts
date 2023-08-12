@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import _ from 'lodash'; // Install npm i --save-dev @types/lodash
 
 const data = [
   {
